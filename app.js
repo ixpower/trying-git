@@ -1,8 +1,8 @@
 const express   = require('express')
 const app       = express()
+require('dotenv').config()
 const hostname  = process.env.HOSTNAME || "localhost"
 const port      = process.env.PORT || 3000
-require('dotenv').config
 
 
 
